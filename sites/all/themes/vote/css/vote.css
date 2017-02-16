@@ -1,0 +1,10 @@
+.view-why-i-vote-yes .field-name-field-image {
+border-radius:50%;
+overflow:hidden;
+max-width:220px;
+}
+
+.ds-1col.node-why-i-vote-yes {
+display:flex;
+align-items:center;
+}
