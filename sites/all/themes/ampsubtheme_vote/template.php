@@ -3,8 +3,8 @@
 /**
  * Preprocess all templates.
  */
-function ampsubtheme_example_preprocess(&$vars, $hook) {
-  $vars['ampsubtheme_path_file'] = DRUPAL_ROOT . '/' . drupal_get_path('theme', 'ampsubtheme_example');
+function ampsubtheme_vote_preprocess(&$vars, $hook) {
+  $vars['ampsubtheme_path_file'] = DRUPAL_ROOT . '/' . drupal_get_path('theme', 'ampsubtheme_vote');
 }
 
 /**
@@ -13,6 +13,6 @@ function ampsubtheme_example_preprocess(&$vars, $hook) {
  * Example of a preprocess hook for a subtheme that could be used to change
  * variables in templates in order to support custom styling of AMP pages.
  */
-function ampsubtheme_example_preprocess_html(&$variables) {
+function ampsubtheme_vote_preprocess_html(&$variables) {
 
 }
