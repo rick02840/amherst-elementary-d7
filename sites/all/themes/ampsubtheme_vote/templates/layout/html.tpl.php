@@ -46,6 +46,7 @@
 <html amp lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>">
   <head>
     <link href="https://fonts.googleapis.com/css?family=Kameron:700|Lato:400,400i,700,700i" rel="stylesheet"> 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <meta charset="utf-8">
     <title><?php print $head_title; ?></title>
     <?php print $head; ?>
