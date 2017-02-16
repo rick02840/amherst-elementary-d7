@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Kameron:700|Lato:400,400i,700,700i');
 /* ---------- Layout ----------- */
 
 html {
@@ -212,12 +211,12 @@ ul ul {
 /* ---------- Colors ----------- */
 
 body {
-  background-color: #FFFAF0;
+/*   background-color: #FFFAF0; */
   color:#2c3e50;
 }
 
 .amp-header {
-  box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+/*   box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28); */
   background: #fff;
 }
 
