@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Kameron:700|Lato:400,400i,700,700i');
 /* ---------- Layout ----------- */
 
 html {
@@ -361,7 +362,8 @@ a:active,
 
 /* ---------- Skip Link ----------- */
 
-.amp-skip-link {
+.amp-skip-link,
+.skip-link {
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -377,7 +379,8 @@ a:active,
   outline: 0;
 }
 
-.amp-skip-link.element-invisible.element-focusable:focus {
+.amp-skip-link.element-invisible.element-focusable:focus
+.skip-link.element-invisible.element-focusable:focus {
   position: absolute;
   color: #fff;
 }
