@@ -12,6 +12,11 @@ body {
   color:#0166B7;
 }
 
+.navbar-btn {
+  margin-top:0;
+  margin-bottom: 0;
+}
+
 .view-why-i-vote-yes .field-name-field-image {
 border-radius:50%;
 overflow:hidden;
