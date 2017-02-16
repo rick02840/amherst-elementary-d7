@@ -6,6 +6,16 @@
     animation:-amp-start 8s steps(1,end) 0s 1 normal both;
   }
 
+  amp-img {
+    height: auto;
+    max-width: 100%;
+  }
+  amp-img[height] img { height: auto; }
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+
   @-webkit-keyframes -amp-start {
     from {
       visibility:hidden;
