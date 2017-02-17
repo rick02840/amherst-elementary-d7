@@ -26,6 +26,7 @@ body {
 
 #page {
   background-color: #ffffff;
+  position: relative;
 }
 
 /* ---------- Typography ----------- */
@@ -336,13 +337,17 @@ a:active,
 /* ---------- Footer ----------- */
 
 .amp-footer {
+  position: fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
 }
 
 .amp-footer__content {
   color: #c0c0c0;
   color: rgba(255, 255, 255, 0.65);
   font-size: 0.75rem;
-  padding: 2rem 1rem 2rem;
+  padding: 1rem;
 }
 
 .amp-footer a,
@@ -474,6 +479,13 @@ div.messages ul {
 
 div.messages ul li {
   list-style-image: none;
+}
+
+.cta {
+  text-align: center;
+}
+.fab {
+  margin:0 .5rem;
 }
 
 .btn-default {
