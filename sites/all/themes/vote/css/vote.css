@@ -101,3 +101,9 @@ h2.block-title {
   max-width: 740px;
   margin:0 auto;
 }
+
+.view-id-news .more-link {
+  text-align: right;
+  display: block;
+  font-weight: bold;
+}
