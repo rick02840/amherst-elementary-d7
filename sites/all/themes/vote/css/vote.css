@@ -26,7 +26,7 @@ a:focus,
 }
 
 .view-why-i-vote-yes .field-name-field-image {
-border-radius:50%;
+/* border-radius:50%; */
 overflow:hidden;
 max-width:220px;
 }
