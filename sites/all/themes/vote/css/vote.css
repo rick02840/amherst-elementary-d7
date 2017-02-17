@@ -33,6 +33,15 @@ a:focus,
   margin-bottom: 0;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #033a59;
+}
+
+.navbar-default .navbar-toggle .icon-bar:focus,
+.navbar-default .navbar-toggle .icon-bar:hover {
+    background-color: #0166B7;
+}
+
 .view-why-i-vote-yes .field-name-field-image {
 /* border-radius:50%; */
 overflow:hidden;
