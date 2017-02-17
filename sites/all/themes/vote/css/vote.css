@@ -40,9 +40,11 @@ overflow:hidden;
 max-width:220px;
 flex-shrink: 0;
 }
-
+.view-why-i-vote-yes .views-row {
+  margin-bottom:2.5rem;
+}
 .view-why-i-vote-yes .field-name-body .field-items {
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding:2.5rem;
 }
 
@@ -58,4 +60,17 @@ h1,h2 {
 .view-news .field-name-field-image {
   float:left;
   margin-right: 2.5rem;
+}
+
+.ds-1col.node-article .field-name-post-date {
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+}
+
+.ds-1col.node-article  .field-name-body {
+  margin-bottom: 2.5rem;
+}
+
+h2.block-title {
+  border-bottom: dotted 1px;
 }
