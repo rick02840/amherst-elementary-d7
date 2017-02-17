@@ -20,8 +20,10 @@ body {
 }
 
 .amp-main__content {
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #page {
@@ -225,7 +227,8 @@ body {
 }
 
 .amp-footer {
-  background: #292929;
+/*   background: #292929; */
+  background-color: #EDBA00;
 }
 
 a,
