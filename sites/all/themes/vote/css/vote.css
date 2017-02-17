@@ -1,11 +1,3 @@
-/*Layout*/
-#block-views-why-i-vote-yes-block,
-#block-views-news-block {
-  width:50%;
-  float:left;
-}
-
-
 body {
 /*   background-color:#fff6ea; */
   background-color: #FFFAF0;
@@ -37,12 +29,9 @@ a:focus,
     background-color: #033a59;
 }
 
-.navbar-default .navbar-toggle .icon-bar:focus,
-.navbar-default .navbar-toggle .icon-bar:hover {
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
     background-color: #fff;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  
 }
 
 .view-why-i-vote-yes .field-name-field-image {
