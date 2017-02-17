@@ -1,3 +1,11 @@
+/*Layout*/
+#block-views-why-i-vote-yes-block,
+#block-views-news-block {
+  width:50%;
+  float:left;
+}
+
+
 body {
 /*   background-color:#fff6ea; */
   background-color: #FFFAF0;
@@ -29,6 +37,7 @@ a:focus,
 /* border-radius:50%; */
 overflow:hidden;
 max-width:220px;
+flex-shrink: 0;
 }
 
 .view-why-i-vote-yes .field-name-body .field-items {
@@ -43,4 +52,9 @@ align-items:center;
 
 h1,h2 {
   font-family: 'Kameron', serif;
+}
+
+.view-news .field-name-field-image {
+  float:left;
+  margin-right: 2.5rem;
 }
