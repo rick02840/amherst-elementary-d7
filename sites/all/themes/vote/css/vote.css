@@ -42,7 +42,7 @@ a:focus,
 /* border-radius:50%; */
 overflow:hidden;
 max-width:220px;
-flex-shrink: 0;
+/* flex-shrink: 0; */
 }
 .view-why-i-vote-yes .views-row {
   margin-bottom:2.5rem;
@@ -106,4 +106,22 @@ h2.block-title {
   text-align: right;
   display: block;
   font-weight: bold;
+}
+
+@media (max-width: 567px) {
+
+.ds-1col.node-why-i-vote-yes {
+  display: block;
+}
+
+.view-why-i-vote-yes .field-name-body .field-items {
+  font-size: 2rem;
+  padding:  1rem 0 2.5rem;
+}
+
+.block.col-md-6 {
+  padding-left:0;
+  padding-right:0;
+}
+
 }
