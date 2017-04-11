@@ -27,6 +27,8 @@ regions[page_bottom]    = 'Page bottom'
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/flatly-override.css
 stylesheets[all][] = css/vote.css
+stylesheets[all][] = css/jquery.countdown.css
+;stylesheets[all][] = css/flipclock.css
 
 
 
@@ -47,6 +49,10 @@ scripts[] = 'bootstrap/assets/javascripts/bootstrap/popover.js'
 scripts[] = 'bootstrap/assets/javascripts/bootstrap/scrollspy.js'
 scripts[] = 'bootstrap/assets/javascripts/bootstrap/tab.js'
 scripts[] = 'bootstrap/assets/javascripts/bootstrap/transition.js'
+scripts[] = 'js/jquery.plugin.js'
+scripts[] = 'js/jquery.countdown.js'
+;scripts[] = 'js/flipclock.min.js'
+
 
 ; Disable the CDN provider so compiled source files can be used.
 settings[bootstrap_cdn] = ''
